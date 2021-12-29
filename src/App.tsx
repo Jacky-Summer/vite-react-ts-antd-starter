@@ -1,6 +1,6 @@
 import { Button } from 'antd'
 import Router from './router'
-import { Link } from './components'
+import { Link } from '@/components'
 
 function App() {
   return (
