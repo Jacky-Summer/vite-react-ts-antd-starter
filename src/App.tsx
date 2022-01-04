@@ -3,6 +3,7 @@ import Router from './router'
 import { Link } from '@/components'
 
 function App() {
+  console.log('import.meta.env', import.meta.env.VITE_APP_NAME)
   return (
     <div className="App">
       <Link to="/">Home Page</Link>
